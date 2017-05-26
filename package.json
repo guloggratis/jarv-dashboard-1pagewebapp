@@ -1,9 +1,9 @@
 {
 	"name": "node-starter-kit",
-	"version": "1.0.2",
-	"description": "Starter kit for node tools",
+	"version": "0.0.1",
+	"description": "GG dashboard",
 	"main": "gulpfile.js",
-	"license": "MIT",
+	"license": "Apache",
 	"dependencies": {
 		"bcrypt-nodejs": "0.0.3",
 		"body-parser": "^1.14.2",
@@ -12,7 +12,7 @@
 		"ejs": "^2.4.1",
 		"http": "0.0.0",
 		"method-override": "^2.3.5",
-		"mongodb": "^2.1.14",
+		"mongodb": "^2.2.27",
 		"morgan": "^1.6.1",
 		"passport": "^0.3.2",
 		"passport-facebook": "^2.0.0",
@@ -41,11 +41,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jackjonesfashion/wiz_tool-starter-kit.git"
+		"url": "https://github.com/guloggratis/jarv-dashboard-1pagewebapp"
 	},
-	"author": "Jack & Jones Tech Team",
+	"author": "Lucas Gabriel Salina D'Ovidio <lucas@lucsali.com>",
 	"bugs": {
-		"url": "https://github.com/jackjonesfashion/wiz_tool-starter-kit/issues"
+		"url": "https://github.com/guloggratis/jarv-dashboard-1pagewebapp/issues"
 	},
-	"homepage": "https://github.com/jackjonesfashion/wiz_tool-starter-kit"
+	"homepage": "https://github.com/guloggratis/jarv-dashboard-1pagewebapp"
 }

@@ -16,7 +16,9 @@ config = require './config.js'
 
 # handler for database connection
 connectToDb = ->
+	console.log config.mongodb.url
 	promise = new promise (resolve, reject) ->
+		console.log "Connecting to DB"
 		mongoClient.connect config.mongodb.url, (err, db) ->
 			if err is null
 				# all good!
@@ -31,6 +33,7 @@ connectToDb = ->
 				# resolve promise passing the db object
 				resolve db
 			else
+				console.log err
 				reject err
 				console.log 'Failed connection to the DB'
 
@@ -41,6 +44,11 @@ connectToDb = ->
 ##############
 ## SHOWTIME ##
 ##############
+
+
+
+
+
 
 connectToDb().then (db) ->
 
